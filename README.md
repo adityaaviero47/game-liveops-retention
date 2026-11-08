@@ -1,4 +1,4 @@
-# Game LiveOps Retention: Content Launches, Churn Signals and an Early-Warning Agent
+# Game LiveOps Retention: Content Launches, Churn Signals, a LiveOps Agent and an Economy Simulation
 
 A LiveOps analysis of real player telemetry from World of Warcraft. It measures how players are retained over a year, what a major content launch actually did to activity and to lapsed players, which behaviours signal churn, and how an early-warning model could drive an agentic LiveOps system with guardrails and evals.
 
@@ -19,9 +19,43 @@ A LiveOps analysis of real player telemetry from World of Warcraft. It measures 
 | Churn signals | Across **7,766** player-months, **22%** of active players stop for 30+ days. Players outside a guild churn at **42%** vs **16%** in a guild (**2.6x**). Players whose last week was under half their 4-week average churn at **40%** vs **10%** (**3.8x**). | Social ties and falling play are the earliest warnings |
 | Early warning | A gradient-boosting model, trained on Feb–Jul and tested on unseen Aug–Oct months, predicts 30-day churn with AUC **0.86** (a days-since-last-play rule scores 0.82). Its top **20%** of players hold **53%** of churners, and **60%** of them churn. | Rank players daily and act on the top of the list |
 
-## From analysis to an agentic LiveOps system
+## The LiveOps agent (built and backtested)
 
-The early-warning model is the decision engine; an agent would run it every day:
+`liveops_agent.py` turns the early-warning model into a working agent and replays it on the three months the model never saw (Aug, Sep and Oct 2008). Each monthly run:
+
+1. **Scores** every active player with the churn model.
+2. **Chooses an action** from that player's strongest churn signal: a comeback reward if away 14+ days, a guild invite if not in a guild, a catch-up boost if play is falling, otherwise a check-in message.
+3. **Applies guardrails:** at most 20% of active players contacted, at most 60 reward-carrying actions (a budget), a fixed random 10% holdout that is never contacted, one action per player, and no action below a 30% churn risk. The run stops with an error if any guardrail is broken.
+4. **Logs every decision** with the player, risk score, action, reason and outcome (`results/agent_decision_log.csv`).
+5. **Evaluates itself** (`results/agent_eval.json`).
+
+| Backtest result (Aug–Oct 2008) | Value |
+|---|---|
+| Players contacted | **424** (20% of active players each run, at the cap) |
+| Precision: contacted players who would have churned | **59%**, against a **23%** base rate (**2.6x**) |
+| Share of all churners flagged | **56%** |
+| Holdout churn among flagged players | 50–56%, close to the contacted group, so the holdout is a fair control |
+| Guardrail violations | **0** |
+| Action mix | 169 comeback rewards, 150 check-ins, 94 guild invites, 11 catch-up boosts |
+
+The data has no real interventions, so the backtest measures **who the agent would target and whether it stays inside its guardrails**, not the effect of the actions. Live, the effect is measured as retention of contacted players against the holdout.
+
+## Game economy simulation
+
+`economy_sim.py` simulates a soft-currency economy for 5,000 players over 60 days. **Player activity is real** (each simulated player's daily chance of playing is drawn from the real distribution of active days in the WoW data). **The economy rules are assumptions:** 100 coins per day played, a 600-coin shop item bought 35% of the time when affordable, a 7-day double-rewards event from day 30, and an optional event shop with a 1,500-coin item.
+
+| Simulated result | Value |
+|---|---|
+| Extra coins minted by the double-rewards week (over 60 days) | **+11%** |
+| Average balance at the end of the event vs no event | **+32%** |
+| Share of that surplus absorbed by the event shop | **25%** |
+| Sink-to-source ratio (coins spent ÷ coins earned) | 0.80 without the event, 0.82 with it |
+
+The lesson for LiveOps: a reward event creates a balance spike that outlasts the event, so it should launch with a matching sink. The size of each effect depends on the assumed rules, which is why the model exists: to test a change before shipping it.
+
+## Taking the agent live
+
+In production the same loop would run daily, with richer actions:
 
 1. **Score:** every active player gets a churn risk from the last 28 days of play.
 2. **Act:** for the top-risk players, pick one intervention: a guild invite or matchmaking nudge for solo players, a catch-up quest or XP boost for players falling behind the new level cap, and a comeback reward for players away 30+ days around a content event.
@@ -54,6 +88,8 @@ The early-warning model is the decision engine; an agent would run it every day:
 - `results/results.json`: every number in this README
 - `results/daily_active_players.csv`: daily active players for 2008
 - `results/churn_features.csv`: the monthly player features and churn labels used for the model
+- `results/agent_decision_log.csv`, `results/agent_eval.json`: the agent's decisions and evaluation
+- `results/economy_sim.json`, `results/economy_sim_daily.csv`: the economy simulation
 - `results/summary.png`: the four charts above
 
 ## Run it
@@ -63,6 +99,8 @@ pip install pandas numpy scikit-learn matplotlib
 python get_data.py       # only if data/ is empty: downloads the data into data/
 python run_analysis.py   # writes results/ (about 1 minute)
 python make_charts.py    # writes results/summary.png
+python liveops_agent.py  # runs the agent on Aug-Oct 2008 and writes its decision log and evals
+python economy_sim.py    # runs the economy simulation
 ```
 
 ## Data source
