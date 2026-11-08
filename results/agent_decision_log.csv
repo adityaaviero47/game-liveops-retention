@@ -1,0 +1,470 @@
+cutoff,char,risk,action,reason,decision,churned
+2008-08-01,7436,0.8236,guild_invite,not in a guild,act,1
+2008-08-01,383,0.801,comeback_reward,away 14+ days,act,0
+2008-08-01,56,0.7989,comeback_reward,away 14+ days,act,1
+2008-08-01,6675,0.7979,comeback_reward,away 14+ days,act,1
+2008-08-01,5317,0.793,guild_invite,not in a guild,holdout,1
+2008-08-01,143,0.79,check_in_message,"high risk, no single signal",act,0
+2008-08-01,7939,0.7874,guild_invite,not in a guild,act,1
+2008-08-01,1802,0.7711,comeback_reward,away 14+ days,act,0
+2008-08-01,3531,0.7659,check_in_message,"high risk, no single signal",act,1
+2008-08-01,8162,0.7627,guild_invite,not in a guild,act,0
+2008-08-01,1381,0.7624,guild_invite,not in a guild,act,1
+2008-08-01,9612,0.7622,comeback_reward,away 14+ days,act,1
+2008-08-01,1438,0.754,comeback_reward,away 14+ days,act,1
+2008-08-01,9012,0.754,comeback_reward,away 14+ days,act,0
+2008-08-01,4369,0.754,comeback_reward,away 14+ days,act,1
+2008-08-01,613,0.7497,comeback_reward,away 14+ days,act,0
+2008-08-01,6390,0.7438,check_in_message,"high risk, no single signal",act,0
+2008-08-01,1144,0.7425,comeback_reward,away 14+ days,act,1
+2008-08-01,3103,0.74,guild_invite,not in a guild,holdout,0
+2008-08-01,489,0.7386,comeback_reward,away 14+ days,act,0
+2008-08-01,2667,0.7375,comeback_reward,away 14+ days,holdout,1
+2008-08-01,3085,0.737,comeback_reward,away 14+ days,act,1
+2008-08-01,7764,0.7251,guild_invite,not in a guild,act,1
+2008-08-01,3831,0.7231,guild_invite,not in a guild,act,0
+2008-08-01,2150,0.7227,guild_invite,not in a guild,act,0
+2008-08-01,7277,0.718,guild_invite,not in a guild,act,0
+2008-08-01,1245,0.7171,comeback_reward,away 14+ days,act,0
+2008-08-01,39,0.7167,comeback_reward,away 14+ days,act,1
+2008-08-01,7992,0.7158,guild_invite,not in a guild,act,1
+2008-08-01,7096,0.7157,comeback_reward,away 14+ days,act,0
+2008-08-01,1765,0.7153,guild_invite,not in a guild,act,1
+2008-08-01,4390,0.7079,guild_invite,not in a guild,act,1
+2008-08-01,1199,0.7023,guild_invite,not in a guild,act,0
+2008-08-01,2894,0.7014,guild_invite,not in a guild,act,0
+2008-08-01,5478,0.6966,guild_invite,not in a guild,act,1
+2008-08-01,7742,0.696,comeback_reward,away 14+ days,act,1
+2008-08-01,9838,0.696,comeback_reward,away 14+ days,act,1
+2008-08-01,77,0.6918,comeback_reward,away 14+ days,act,1
+2008-08-01,4548,0.6914,comeback_reward,away 14+ days,act,0
+2008-08-01,4531,0.6905,comeback_reward,away 14+ days,act,0
+2008-08-01,3586,0.6905,comeback_reward,away 14+ days,act,1
+2008-08-01,216,0.6885,comeback_reward,away 14+ days,act,1
+2008-08-01,1884,0.6881,guild_invite,not in a guild,act,0
+2008-08-01,2207,0.6875,guild_invite,not in a guild,holdout,1
+2008-08-01,589,0.6863,comeback_reward,away 14+ days,act,1
+2008-08-01,1268,0.6861,comeback_reward,away 14+ days,act,1
+2008-08-01,8414,0.6852,comeback_reward,away 14+ days,act,1
+2008-08-01,6137,0.6847,check_in_message,"high risk, no single signal",act,1
+2008-08-01,371,0.6786,comeback_reward,away 14+ days,act,1
+2008-08-01,2861,0.6776,comeback_reward,away 14+ days,act,0
+2008-08-01,850,0.6773,comeback_reward,away 14+ days,act,0
+2008-08-01,1704,0.676,comeback_reward,away 14+ days,act,1
+2008-08-01,1111,0.672,comeback_reward,away 14+ days,act,1
+2008-08-01,5236,0.6684,comeback_reward,away 14+ days,act,0
+2008-08-01,5986,0.6643,comeback_reward,away 14+ days,act,1
+2008-08-01,2528,0.6632,guild_invite,not in a guild,act,0
+2008-08-01,949,0.6619,comeback_reward,away 14+ days,act,0
+2008-08-01,7373,0.6611,comeback_reward,away 14+ days,act,1
+2008-08-01,1315,0.659,catch_up_boost,play falling,act,0
+2008-08-01,2776,0.6589,comeback_reward,away 14+ days,act,1
+2008-08-01,1385,0.6585,guild_invite,not in a guild,holdout,0
+2008-08-01,1652,0.655,guild_invite,not in a guild,act,0
+2008-08-01,9810,0.6542,check_in_message,"high risk, no single signal",act,0
+2008-08-01,2397,0.6539,guild_invite,not in a guild,act,1
+2008-08-01,2918,0.6531,comeback_reward,away 14+ days,act,0
+2008-08-01,9403,0.6522,catch_up_boost,play falling,act,1
+2008-08-01,1138,0.6511,comeback_reward,away 14+ days,act,0
+2008-08-01,8776,0.651,comeback_reward,away 14+ days,act,0
+2008-08-01,762,0.6508,comeback_reward,away 14+ days,holdout,1
+2008-08-01,579,0.6493,catch_up_boost,play falling,act,1
+2008-08-01,527,0.6487,guild_invite,not in a guild,act,1
+2008-08-01,5270,0.6484,guild_invite,not in a guild,holdout,1
+2008-08-01,6821,0.6473,catch_up_boost,play falling,act,1
+2008-08-01,2612,0.646,comeback_reward,away 14+ days,act,1
+2008-08-01,570,0.6439,check_in_message,"high risk, no single signal",act,0
+2008-08-01,5562,0.6396,check_in_message,"high risk, no single signal",act,0
+2008-08-01,7468,0.6325,guild_invite,not in a guild,act,0
+2008-08-01,1555,0.6322,comeback_reward,away 14+ days,act,1
+2008-08-01,983,0.6299,comeback_reward,away 14+ days,act,1
+2008-08-01,6342,0.6291,comeback_reward,away 14+ days,act,1
+2008-08-01,9051,0.6272,comeback_reward,away 14+ days,act,1
+2008-08-01,5620,0.6229,comeback_reward,away 14+ days,act,1
+2008-08-01,231,0.6189,comeback_reward,away 14+ days,holdout,1
+2008-08-01,7900,0.6186,comeback_reward,away 14+ days,act,1
+2008-08-01,9156,0.616,comeback_reward,away 14+ days,act,0
+2008-08-01,351,0.6132,comeback_reward,away 14+ days,act,0
+2008-08-01,7494,0.6129,comeback_reward,away 14+ days,act,1
+2008-08-01,1433,0.6119,comeback_reward,away 14+ days,act,1
+2008-08-01,2622,0.6107,guild_invite,not in a guild,act,1
+2008-08-01,2215,0.6094,comeback_reward,away 14+ days,act,1
+2008-08-01,2093,0.6091,comeback_reward,away 14+ days,act,0
+2008-08-01,7355,0.6068,comeback_reward,away 14+ days,act,0
+2008-08-01,4773,0.6052,comeback_reward,away 14+ days,act,1
+2008-08-01,3133,0.6019,comeback_reward,away 14+ days,act,1
+2008-08-01,5222,0.6001,comeback_reward,away 14+ days,act,1
+2008-08-01,3400,0.5968,check_in_message,"high risk, no single signal",act,1
+2008-08-01,8873,0.5923,comeback_reward,away 14+ days,act,0
+2008-08-01,2129,0.5915,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,776,0.5892,guild_invite,not in a guild,act,0
+2008-08-01,9531,0.588,guild_invite,not in a guild,act,0
+2008-08-01,9404,0.5862,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,7784,0.5804,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,1342,0.5788,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,1571,0.5781,guild_invite,not in a guild,act,0
+2008-08-01,1641,0.5781,guild_invite,not in a guild,act,1
+2008-08-01,1156,0.5768,check_in_message,play falling (reward budget used up),act,0
+2008-08-01,2383,0.5767,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,9975,0.5763,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,638,0.5733,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,3565,0.5732,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,5228,0.5727,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,7025,0.5702,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,230,0.5699,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,804,0.5699,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,3876,0.5654,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,2350,0.5639,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,2450,0.5631,guild_invite,not in a guild,act,0
+2008-08-01,5583,0.5588,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,4746,0.5563,guild_invite,not in a guild,act,0
+2008-08-01,5080,0.5558,comeback_reward,away 14+ days,holdout,0
+2008-08-01,6239,0.5512,comeback_reward,away 14+ days,holdout,1
+2008-08-01,8463,0.551,guild_invite,not in a guild,act,1
+2008-08-01,7289,0.5503,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,5621,0.5496,check_in_message,"high risk, no single signal",act,0
+2008-08-01,1096,0.5492,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,286,0.5488,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,8778,0.5488,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,6930,0.5486,guild_invite,not in a guild,act,1
+2008-08-01,1669,0.5433,check_in_message,play falling (reward budget used up),act,0
+2008-08-01,8240,0.5431,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,399,0.5396,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,502,0.5366,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,3236,0.5361,comeback_reward,away 14+ days,holdout,0
+2008-08-01,1271,0.5333,comeback_reward,away 14+ days,holdout,1
+2008-08-01,180,0.5327,check_in_message,"high risk, no single signal",act,1
+2008-08-01,2009,0.5303,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,9014,0.5301,guild_invite,not in a guild,act,1
+2008-08-01,929,0.5286,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,9365,0.5286,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,986,0.5251,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,2868,0.5209,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,5355,0.5182,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,4847,0.5134,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,2197,0.5121,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,2563,0.5121,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,1308,0.5109,check_in_message,play falling (reward budget used up),act,0
+2008-08-01,1336,0.5103,guild_invite,not in a guild,act,1
+2008-08-01,5432,0.5096,guild_invite,not in a guild,holdout,0
+2008-08-01,91,0.5082,comeback_reward,away 14+ days,holdout,0
+2008-08-01,2276,0.4997,guild_invite,not in a guild,act,0
+2008-08-01,5635,0.4983,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,3833,0.4972,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,8340,0.497,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,1118,0.4923,check_in_message,"high risk, no single signal",act,0
+2008-08-01,6544,0.4882,comeback_reward,away 14+ days,holdout,0
+2008-08-01,34,0.486,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,344,0.4841,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,5263,0.4835,check_in_message,play falling (reward budget used up),act,0
+2008-08-01,3320,0.4806,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,176,0.4768,check_in_message,play falling (reward budget used up),act,1
+2008-08-01,3548,0.4756,check_in_message,away 14+ days (reward budget used up),act,0
+2008-08-01,6209,0.4673,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,781,0.4663,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,807,0.4633,catch_up_boost,play falling,holdout,0
+2008-08-01,1214,0.4618,check_in_message,away 14+ days (reward budget used up),act,1
+2008-08-01,2853,0.4617,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,1625,0.8259,guild_invite,not in a guild,act,0
+2008-09-01,3077,0.7825,guild_invite,not in a guild,act,1
+2008-09-01,645,0.7784,comeback_reward,away 14+ days,act,1
+2008-09-01,9923,0.7743,guild_invite,not in a guild,act,1
+2008-09-01,8183,0.7665,guild_invite,not in a guild,holdout,0
+2008-09-01,2150,0.7572,comeback_reward,away 14+ days,act,0
+2008-09-01,1323,0.7572,comeback_reward,away 14+ days,act,1
+2008-09-01,2140,0.7552,guild_invite,not in a guild,act,1
+2008-09-01,4322,0.754,comeback_reward,away 14+ days,act,1
+2008-09-01,1802,0.7503,guild_invite,not in a guild,act,0
+2008-09-01,9012,0.7462,comeback_reward,away 14+ days,act,1
+2008-09-01,1884,0.7313,comeback_reward,away 14+ days,act,0
+2008-09-01,613,0.7279,guild_invite,not in a guild,act,1
+2008-09-01,2366,0.7253,check_in_message,"high risk, no single signal",act,0
+2008-09-01,1679,0.7225,comeback_reward,away 14+ days,act,1
+2008-09-01,1152,0.7212,guild_invite,not in a guild,act,1
+2008-09-01,5432,0.7207,comeback_reward,away 14+ days,act,1
+2008-09-01,2592,0.7191,comeback_reward,away 14+ days,act,1
+2008-09-01,6897,0.7186,guild_invite,not in a guild,act,1
+2008-09-01,4979,0.7124,guild_invite,not in a guild,act,0
+2008-09-01,8246,0.7076,guild_invite,not in a guild,act,0
+2008-09-01,518,0.7073,comeback_reward,away 14+ days,act,1
+2008-09-01,5207,0.7068,comeback_reward,away 14+ days,act,0
+2008-09-01,1887,0.706,guild_invite,not in a guild,act,0
+2008-09-01,4071,0.7058,guild_invite,not in a guild,holdout,0
+2008-09-01,923,0.7026,comeback_reward,away 14+ days,act,1
+2008-09-01,9156,0.7015,guild_invite,not in a guild,act,0
+2008-09-01,3103,0.699,comeback_reward,away 14+ days,act,0
+2008-09-01,8162,0.6981,comeback_reward,away 14+ days,act,1
+2008-09-01,522,0.6949,comeback_reward,away 14+ days,act,1
+2008-09-01,7289,0.6923,guild_invite,not in a guild,act,0
+2008-09-01,4221,0.6906,check_in_message,"high risk, no single signal",holdout,1
+2008-09-01,9787,0.6901,comeback_reward,away 14+ days,holdout,0
+2008-09-01,4998,0.6807,comeback_reward,away 14+ days,act,1
+2008-09-01,6996,0.6786,comeback_reward,away 14+ days,act,1
+2008-09-01,5773,0.6776,guild_invite,not in a guild,act,1
+2008-09-01,2460,0.6706,comeback_reward,away 14+ days,act,1
+2008-09-01,147,0.6684,comeback_reward,away 14+ days,act,1
+2008-09-01,1456,0.6655,guild_invite,not in a guild,act,1
+2008-09-01,2365,0.6646,comeback_reward,away 14+ days,act,0
+2008-09-01,3548,0.6606,comeback_reward,away 14+ days,act,1
+2008-09-01,1124,0.6589,comeback_reward,away 14+ days,act,0
+2008-09-01,2244,0.6564,check_in_message,"high risk, no single signal",act,0
+2008-09-01,328,0.656,catch_up_boost,play falling,act,1
+2008-09-01,6062,0.6533,comeback_reward,away 14+ days,act,1
+2008-09-01,395,0.6525,comeback_reward,away 14+ days,act,0
+2008-09-01,5281,0.6518,guild_invite,not in a guild,act,1
+2008-09-01,1073,0.6509,guild_invite,not in a guild,act,1
+2008-09-01,7261,0.6496,comeback_reward,away 14+ days,act,1
+2008-09-01,4548,0.648,guild_invite,not in a guild,act,1
+2008-09-01,2504,0.6477,comeback_reward,away 14+ days,act,0
+2008-09-01,150,0.6472,catch_up_boost,play falling,act,1
+2008-09-01,5730,0.6439,comeback_reward,away 14+ days,act,1
+2008-09-01,1315,0.6421,comeback_reward,away 14+ days,act,1
+2008-09-01,2695,0.6418,comeback_reward,away 14+ days,act,1
+2008-09-01,624,0.6398,comeback_reward,away 14+ days,holdout,1
+2008-09-01,2970,0.6364,comeback_reward,away 14+ days,holdout,1
+2008-09-01,4056,0.6342,comeback_reward,away 14+ days,act,1
+2008-09-01,1012,0.634,comeback_reward,away 14+ days,act,1
+2008-09-01,978,0.6324,comeback_reward,away 14+ days,act,1
+2008-09-01,7095,0.6237,comeback_reward,away 14+ days,act,1
+2008-09-01,8328,0.6183,comeback_reward,away 14+ days,act,1
+2008-09-01,2276,0.6176,comeback_reward,away 14+ days,act,0
+2008-09-01,5813,0.6176,comeback_reward,away 14+ days,act,1
+2008-09-01,5414,0.6164,comeback_reward,away 14+ days,act,1
+2008-09-01,556,0.6162,comeback_reward,away 14+ days,act,1
+2008-09-01,2873,0.6146,comeback_reward,away 14+ days,act,1
+2008-09-01,3665,0.6119,guild_invite,not in a guild,act,1
+2008-09-01,5022,0.6113,comeback_reward,away 14+ days,act,1
+2008-09-01,6370,0.6063,check_in_message,"high risk, no single signal",act,0
+2008-09-01,2205,0.606,comeback_reward,away 14+ days,act,1
+2008-09-01,3310,0.6054,comeback_reward,away 14+ days,holdout,1
+2008-09-01,8845,0.605,guild_invite,not in a guild,act,1
+2008-09-01,1470,0.6025,comeback_reward,away 14+ days,act,0
+2008-09-01,5080,0.6012,comeback_reward,away 14+ days,act,1
+2008-09-01,8240,0.5943,comeback_reward,away 14+ days,holdout,1
+2008-09-01,6223,0.5927,check_in_message,"high risk, no single signal",act,0
+2008-09-01,5715,0.5927,comeback_reward,away 14+ days,act,0
+2008-09-01,322,0.5923,comeback_reward,away 14+ days,act,0
+2008-09-01,1307,0.5923,comeback_reward,away 14+ days,act,0
+2008-09-01,5512,0.5895,comeback_reward,away 14+ days,act,0
+2008-09-01,48,0.5885,check_in_message,"high risk, no single signal",act,1
+2008-09-01,2861,0.5863,guild_invite,not in a guild,act,1
+2008-09-01,807,0.5863,catch_up_boost,play falling,act,1
+2008-09-01,776,0.5845,comeback_reward,away 14+ days,act,1
+2008-09-01,1827,0.5807,comeback_reward,away 14+ days,act,1
+2008-09-01,6691,0.5746,comeback_reward,away 14+ days,act,1
+2008-09-01,2093,0.5727,comeback_reward,away 14+ days,act,0
+2008-09-01,1756,0.5702,guild_invite,not in a guild,act,1
+2008-09-01,4539,0.5657,guild_invite,not in a guild,act,1
+2008-09-01,1398,0.5629,comeback_reward,away 14+ days,act,1
+2008-09-01,3142,0.5622,comeback_reward,away 14+ days,act,1
+2008-09-01,9025,0.5621,guild_invite,not in a guild,act,0
+2008-09-01,1385,0.5612,comeback_reward,away 14+ days,holdout,1
+2008-09-01,2085,0.5611,comeback_reward,away 14+ days,holdout,0
+2008-09-01,404,0.5596,comeback_reward,away 14+ days,act,1
+2008-09-01,1567,0.5582,comeback_reward,away 14+ days,act,1
+2008-09-01,9975,0.5551,check_in_message,"high risk, no single signal",act,0
+2008-09-01,570,0.5536,comeback_reward,away 14+ days,act,0
+2008-09-01,2519,0.5512,comeback_reward,away 14+ days,act,1
+2008-09-01,9237,0.5501,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,772,0.5492,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,4064,0.5478,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,414,0.5478,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,2635,0.5464,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,4948,0.5463,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,876,0.5452,check_in_message,play falling (reward budget used up),act,0
+2008-09-01,9118,0.5451,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,802,0.5439,check_in_message,play falling (reward budget used up),act,0
+2008-09-01,949,0.5436,check_in_message,play falling (reward budget used up),act,0
+2008-09-01,6390,0.542,check_in_message,"high risk, no single signal",act,0
+2008-09-01,659,0.5413,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,643,0.5401,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,3017,0.5394,comeback_reward,away 14+ days,holdout,1
+2008-09-01,1079,0.5394,comeback_reward,away 14+ days,holdout,1
+2008-09-01,2232,0.5392,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,502,0.5383,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,7411,0.5333,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,1504,0.5333,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,424,0.5307,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,2554,0.5299,comeback_reward,away 14+ days,holdout,0
+2008-09-01,8382,0.5286,check_in_message,play falling (reward budget used up),act,1
+2008-09-01,7517,0.5275,check_in_message,"high risk, no single signal",act,1
+2008-09-01,1405,0.5274,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,9402,0.5267,check_in_message,play falling (reward budget used up),act,0
+2008-09-01,7880,0.5235,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,5885,0.5229,check_in_message,play falling (reward budget used up),act,1
+2008-09-01,185,0.5229,catch_up_boost,play falling,holdout,1
+2008-09-01,34,0.5197,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,1199,0.5187,check_in_message,play falling (reward budget used up),act,0
+2008-09-01,229,0.5174,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,6515,0.5125,check_in_message,"high risk, no single signal",act,1
+2008-09-01,5554,0.5122,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,2146,0.5115,guild_invite,not in a guild,act,0
+2008-09-01,9593,0.5112,check_in_message,play falling (reward budget used up),act,0
+2008-09-01,237,0.5082,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,2113,0.5082,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,2918,0.5082,guild_invite,not in a guild,act,1
+2008-09-01,2303,0.504,check_in_message,play falling (reward budget used up),act,1
+2008-09-01,6556,0.5001,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,8522,0.4983,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,519,0.4982,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,5836,0.4974,check_in_message,play falling (reward budget used up),act,1
+2008-09-01,1308,0.4901,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,9810,0.4897,catch_up_boost,play falling,holdout,0
+2008-09-01,3881,0.4887,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,1156,0.4882,check_in_message,away 14+ days (reward budget used up),act,1
+2008-09-01,8873,0.4882,check_in_message,play falling (reward budget used up),act,0
+2008-09-01,5355,0.4781,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,3805,0.4778,guild_invite,not in a guild,act,1
+2008-09-01,5562,0.4774,comeback_reward,away 14+ days,holdout,0
+2008-09-01,4862,0.4749,check_in_message,away 14+ days (reward budget used up),act,0
+2008-09-01,2563,0.4744,check_in_message,away 14+ days (reward budget used up),act,0
+2008-10-01,9498,0.8236,guild_invite,not in a guild,act,1
+2008-10-01,589,0.8087,guild_invite,not in a guild,act,0
+2008-10-01,7995,0.8015,guild_invite,not in a guild,act,1
+2008-10-01,6590,0.7971,comeback_reward,away 14+ days,act,1
+2008-10-01,490,0.7877,check_in_message,"high risk, no single signal",act,1
+2008-10-01,9976,0.7825,guild_invite,not in a guild,act,1
+2008-10-01,1802,0.763,comeback_reward,away 14+ days,act,1
+2008-10-01,2450,0.763,guild_invite,not in a guild,act,0
+2008-10-01,2717,0.7626,check_in_message,"high risk, no single signal",act,0
+2008-10-01,49,0.7565,check_in_message,"high risk, no single signal",act,1
+2008-10-01,5715,0.755,comeback_reward,away 14+ days,act,1
+2008-10-01,2295,0.7519,guild_invite,not in a guild,act,1
+2008-10-01,4628,0.7477,guild_invite,not in a guild,act,1
+2008-10-01,1121,0.7477,guild_invite,not in a guild,act,1
+2008-10-01,8942,0.7454,guild_invite,not in a guild,act,1
+2008-10-01,6438,0.7454,guild_invite,not in a guild,act,0
+2008-10-01,3518,0.7448,comeback_reward,away 14+ days,act,1
+2008-10-01,2791,0.7443,guild_invite,not in a guild,act,1
+2008-10-01,1766,0.7427,comeback_reward,away 14+ days,act,1
+2008-10-01,7563,0.7417,guild_invite,not in a guild,act,1
+2008-10-01,3832,0.7284,comeback_reward,away 14+ days,act,1
+2008-10-01,1884,0.7278,guild_invite,not in a guild,act,0
+2008-10-01,8272,0.7277,comeback_reward,away 14+ days,holdout,1
+2008-10-01,7773,0.7222,guild_invite,not in a guild,holdout,0
+2008-10-01,8336,0.7192,comeback_reward,away 14+ days,act,1
+2008-10-01,5317,0.7191,guild_invite,not in a guild,act,1
+2008-10-01,159,0.7187,comeback_reward,away 14+ days,holdout,1
+2008-10-01,9230,0.7176,comeback_reward,away 14+ days,act,1
+2008-10-01,3099,0.7159,comeback_reward,away 14+ days,act,1
+2008-10-01,7408,0.7146,guild_invite,not in a guild,act,1
+2008-10-01,4988,0.7134,comeback_reward,away 14+ days,act,1
+2008-10-01,1123,0.7068,comeback_reward,away 14+ days,act,1
+2008-10-01,3012,0.7027,comeback_reward,away 14+ days,act,0
+2008-10-01,1028,0.6973,comeback_reward,away 14+ days,act,0
+2008-10-01,554,0.6901,comeback_reward,away 14+ days,act,0
+2008-10-01,7571,0.6884,comeback_reward,away 14+ days,act,1
+2008-10-01,239,0.6856,guild_invite,not in a guild,act,1
+2008-10-01,397,0.6786,comeback_reward,away 14+ days,holdout,0
+2008-10-01,4064,0.6786,comeback_reward,away 14+ days,act,0
+2008-10-01,4531,0.6774,comeback_reward,away 14+ days,act,0
+2008-10-01,8621,0.676,comeback_reward,away 14+ days,act,0
+2008-10-01,3881,0.6742,comeback_reward,away 14+ days,act,0
+2008-10-01,539,0.673,comeback_reward,away 14+ days,act,1
+2008-10-01,3450,0.6722,guild_invite,not in a guild,act,1
+2008-10-01,6537,0.672,comeback_reward,away 14+ days,act,1
+2008-10-01,293,0.6694,check_in_message,"high risk, no single signal",act,0
+2008-10-01,2021,0.6691,check_in_message,"high risk, no single signal",act,1
+2008-10-01,143,0.6684,comeback_reward,away 14+ days,act,0
+2008-10-01,1451,0.6663,comeback_reward,away 14+ days,act,1
+2008-10-01,730,0.6659,comeback_reward,away 14+ days,act,1
+2008-10-01,2408,0.6655,check_in_message,"high risk, no single signal",act,1
+2008-10-01,3203,0.6647,guild_invite,not in a guild,act,1
+2008-10-01,7511,0.6603,check_in_message,"high risk, no single signal",act,0
+2008-10-01,3698,0.6598,guild_invite,not in a guild,act,1
+2008-10-01,4016,0.6545,comeback_reward,away 14+ days,act,0
+2008-10-01,9118,0.6515,comeback_reward,away 14+ days,act,0
+2008-10-01,3439,0.6469,check_in_message,"high risk, no single signal",act,0
+2008-10-01,4841,0.6448,comeback_reward,away 14+ days,act,1
+2008-10-01,2528,0.6445,comeback_reward,away 14+ days,act,0
+2008-10-01,8680,0.6426,comeback_reward,away 14+ days,act,0
+2008-10-01,1250,0.6424,comeback_reward,away 14+ days,act,1
+2008-10-01,696,0.6424,comeback_reward,away 14+ days,act,1
+2008-10-01,1514,0.6387,guild_invite,not in a guild,act,1
+2008-10-01,22,0.6386,catch_up_boost,play falling,act,0
+2008-10-01,6370,0.6383,comeback_reward,away 14+ days,act,1
+2008-10-01,6316,0.6383,comeback_reward,away 14+ days,act,0
+2008-10-01,5222,0.6349,comeback_reward,away 14+ days,act,1
+2008-10-01,2036,0.6315,comeback_reward,away 14+ days,act,1
+2008-10-01,6820,0.6292,check_in_message,"high risk, no single signal",act,1
+2008-10-01,6706,0.6283,check_in_message,"high risk, no single signal",act,1
+2008-10-01,8320,0.6283,comeback_reward,away 14+ days,act,0
+2008-10-01,2911,0.6256,check_in_message,"high risk, no single signal",act,1
+2008-10-01,3760,0.6253,comeback_reward,away 14+ days,holdout,0
+2008-10-01,2860,0.6251,comeback_reward,away 14+ days,act,0
+2008-10-01,1124,0.6247,comeback_reward,away 14+ days,act,1
+2008-10-01,237,0.6238,check_in_message,"high risk, no single signal",holdout,1
+2008-10-01,4071,0.622,comeback_reward,away 14+ days,act,1
+2008-10-01,7369,0.6177,guild_invite,not in a guild,act,1
+2008-10-01,8209,0.6159,comeback_reward,away 14+ days,act,1
+2008-10-01,8066,0.6137,comeback_reward,away 14+ days,act,0
+2008-10-01,1441,0.6131,comeback_reward,away 14+ days,act,0
+2008-10-01,236,0.6111,check_in_message,"high risk, no single signal",act,1
+2008-10-01,5694,0.6109,check_in_message,"high risk, no single signal",act,1
+2008-10-01,680,0.6088,check_in_message,"high risk, no single signal",act,1
+2008-10-01,174,0.6047,comeback_reward,away 14+ days,act,0
+2008-10-01,1577,0.604,comeback_reward,away 14+ days,act,1
+2008-10-01,1286,0.6038,comeback_reward,away 14+ days,holdout,0
+2008-10-01,2511,0.5999,comeback_reward,away 14+ days,act,0
+2008-10-01,351,0.5991,check_in_message,"high risk, no single signal",act,0
+2008-10-01,876,0.5974,check_in_message,"high risk, no single signal",act,0
+2008-10-01,7468,0.5973,guild_invite,not in a guild,act,0
+2008-10-01,3794,0.593,guild_invite,not in a guild,holdout,0
+2008-10-01,2278,0.5929,check_in_message,"high risk, no single signal",act,0
+2008-10-01,1553,0.5911,catch_up_boost,play falling,act,0
+2008-10-01,2220,0.5908,comeback_reward,away 14+ days,act,1
+2008-10-01,1563,0.5895,comeback_reward,away 14+ days,act,0
+2008-10-01,9404,0.5888,check_in_message,"high risk, no single signal",act,0
+2008-10-01,9627,0.5881,guild_invite,not in a guild,act,0
+2008-10-01,6786,0.586,comeback_reward,away 14+ days,act,1
+2008-10-01,5512,0.5849,comeback_reward,away 14+ days,holdout,1
+2008-10-01,1191,0.5799,comeback_reward,away 14+ days,act,1
+2008-10-01,7142,0.5781,comeback_reward,away 14+ days,act,1
+2008-10-01,9975,0.5763,catch_up_boost,play falling,act,1
+2008-10-01,1410,0.5738,catch_up_boost,play falling,act,1
+2008-10-01,2029,0.5707,comeback_reward,away 14+ days,act,0
+2008-10-01,9598,0.5707,comeback_reward,away 14+ days,act,1
+2008-10-01,64,0.5705,comeback_reward,away 14+ days,act,1
+2008-10-01,8340,0.5699,comeback_reward,away 14+ days,act,0
+2008-10-01,2345,0.5699,comeback_reward,away 14+ days,act,0
+2008-10-01,2146,0.5687,comeback_reward,away 14+ days,act,0
+2008-10-01,1505,0.5682,guild_invite,not in a guild,act,1
+2008-10-01,2211,0.5672,comeback_reward,away 14+ days,holdout,1
+2008-10-01,6601,0.5646,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,4008,0.5635,check_in_message,away 14+ days (reward budget used up),act,0
+2008-10-01,3189,0.5629,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,281,0.5627,check_in_message,away 14+ days (reward budget used up),act,0
+2008-10-01,2612,0.5605,guild_invite,not in a guild,act,1
+2008-10-01,1975,0.5602,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,2342,0.5572,guild_invite,not in a guild,act,0
+2008-10-01,395,0.5571,check_in_message,"high risk, no single signal",act,0
+2008-10-01,8522,0.5568,check_in_message,"high risk, no single signal",act,1
+2008-10-01,4746,0.5563,guild_invite,not in a guild,act,1
+2008-10-01,191,0.5478,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,9810,0.5452,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,399,0.5439,check_in_message,away 14+ days (reward budget used up),act,0
+2008-10-01,3833,0.5426,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,1936,0.5426,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,9787,0.5422,guild_invite,not in a guild,act,1
+2008-10-01,800,0.5371,check_in_message,"high risk, no single signal",holdout,1
+2008-10-01,1641,0.5368,guild_invite,not in a guild,act,1
+2008-10-01,4390,0.5368,guild_invite,not in a guild,act,0
+2008-10-01,1818,0.5301,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,144,0.5239,guild_invite,not in a guild,holdout,1
+2008-10-01,6257,0.5191,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,9402,0.5174,check_in_message,"high risk, no single signal",act,0
+2008-10-01,6209,0.5165,check_in_message,"high risk, no single signal",act,0
+2008-10-01,762,0.511,check_in_message,"high risk, no single signal",act,0
+2008-10-01,9025,0.5083,guild_invite,not in a guild,act,0
+2008-10-01,4278,0.5072,guild_invite,not in a guild,act,0
+2008-10-01,867,0.5062,comeback_reward,away 14+ days,holdout,0
+2008-10-01,8026,0.5051,guild_invite,not in a guild,act,0
+2008-10-01,3510,0.5049,guild_invite,not in a guild,act,1
+2008-10-01,1419,0.5009,check_in_message,away 14+ days (reward budget used up),act,0
+2008-10-01,5965,0.4972,check_in_message,play falling (reward budget used up),act,0
+2008-10-01,5582,0.4959,guild_invite,not in a guild,act,1
+2008-10-01,4712,0.4942,check_in_message,"high risk, no single signal",act,1
+2008-10-01,843,0.4923,check_in_message,"high risk, no single signal",act,1
+2008-10-01,2166,0.4865,check_in_message,away 14+ days (reward budget used up),act,1
+2008-10-01,9906,0.4848,check_in_message,play falling (reward budget used up),act,0
+2008-10-01,929,0.4826,check_in_message,play falling (reward budget used up),act,0

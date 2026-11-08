@@ -1,0 +1,51 @@
+{
+  "assumptions": {
+    "players": 5000,
+    "days": 60,
+    "coins_per_play_day": 100,
+    "item_price": 600,
+    "buy_prob_if_affordable": 0.35,
+    "event_days": [
+      30,
+      37
+    ],
+    "event_multiplier": 2.0,
+    "event_shop_price": 1500,
+    "event_shop_buy_prob": 0.5
+  },
+  "note": "simulation; activity from real WoW players, economy rules assumed",
+  "baseline": {
+    "coins_created": 9924400.0,
+    "coins_removed": 7968600.0,
+    "sink_to_source": 0.8029301519487324,
+    "mean_balance_end": 391.16,
+    "mean_balance_day_event_end": 346.92,
+    "share_with_1500_plus": 0.0046
+  },
+  "double_rewards": {
+    "coins_created": 11063200.0,
+    "coins_removed": 9018600.0,
+    "sink_to_source": 0.8151890953792754,
+    "mean_balance_end": 408.92,
+    "mean_balance_day_event_end": 458.88,
+    "share_with_1500_plus": 0.0104
+  },
+  "double_rewards_with_event_shop": {
+    "coins_created": 11063200.0,
+    "coins_removed": 9041700.0,
+    "sink_to_source": 0.8172770988502422,
+    "mean_balance_end": 404.3,
+    "mean_balance_day_event_end": 430.38,
+    "share_with_1500_plus": 0.0078
+  },
+  "impact": {
+    "event_extra_coins_share": 0.1147474910322035,
+    "balance_inflation_at_end": 0.04540341548215565,
+    "balance_inflation_with_shop": 0.03359239186010843,
+    "sink_ratio_base": 0.8029301519487324,
+    "sink_ratio_event": 0.8151890953792754,
+    "sink_ratio_event_shop": 0.8172770988502422,
+    "balance_spike_at_event_end": 0.3227257004496713,
+    "shop_absorbs_share_of_spike": 0.25455519828510187
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "guardrails": {
+    "max_contact_share": 0.2,
+    "max_reward_actions": 60,
+    "holdout_share": 0.1,
+    "min_risk": 0.3
+  },
+  "runs": [
+    {
+      "cutoff": "2008-08-01",
+      "active_players": 750,
+      "contacted": 150,
+      "held_out_flagged": 16,
+      "contact_share": 0.2,
+      "precision": 0.5666666666666667,
+      "recall": 0.543859649122807,
+      "base_churn": 0.228,
+      "reward_actions": 60,
+      "holdout_churn": 0.5,
+      "action_mix": {
+        "check_in_message": 58,
+        "comeback_reward": 56,
+        "guild_invite": 32,
+        "catch_up_boost": 4
+      },
+      "guardrail_violations": 0
+    },
+    {
+      "cutoff": "2008-09-01",
+      "active_players": 685,
+      "contacted": 137,
+      "held_out_flagged": 16,
+      "contact_share": 0.2,
+      "precision": 0.6131386861313869,
+      "recall": 0.5705521472392638,
+      "base_churn": 0.23795620437956205,
+      "reward_actions": 60,
+      "holdout_churn": 0.5625,
+      "action_mix": {
+        "comeback_reward": 57,
+        "check_in_message": 50,
+        "guild_invite": 27,
+        "catch_up_boost": 3
+      },
+      "guardrail_violations": 0
+    },
+    {
+      "cutoff": "2008-10-01",
+      "active_players": 686,
+      "contacted": 137,
+      "held_out_flagged": 13,
+      "contact_share": 0.19970845481049562,
+      "precision": 0.5912408759124088,
+      "recall": 0.5827814569536424,
+      "base_churn": 0.22011661807580174,
+      "reward_actions": 60,
+      "holdout_churn": 0.5384615384615384,
+      "action_mix": {
+        "comeback_reward": 56,
+        "check_in_message": 42,
+        "guild_invite": 35,
+        "catch_up_boost": 4
+      },
+      "guardrail_violations": 0
+    }
+  ],
+  "overall": {
+    "decisions_logged": 469,
+    "contacted": 424,
+    "precision": 0.589622641509434,
+    "recall": 0.5649484536082474,
+    "base_churn": 0.22869094081845462,
+    "lift": 2.578250976620467,
+    "guardrail_violations": 0,
+    "action_mix": {
+      "comeback_reward": 169,
+      "check_in_message": 150,
+      "guild_invite": 94,
+      "catch_up_boost": 11
+    }
+  }
+}
