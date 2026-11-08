@@ -1,0 +1,102 @@
+{
+  "validation": {
+    "snapshots": 1380068,
+    "exact_duplicates": 553,
+    "missing": 0,
+    "level_out_of_range": 0
+  },
+  "data": {
+    "snapshots": 1379515,
+    "players": 1766,
+    "start": "2008-01-01",
+    "end": "2008-12-31",
+    "days_recorded": 352,
+    "hours_played": 229919.16666666666,
+    "missing_days": 14
+  },
+  "sessions": {
+    "sessions": 146244,
+    "median_session_hours": 0.8333333333333334,
+    "mean_session_hours": 1.572161365024662
+  },
+  "retention": {
+    "january_players": 944,
+    "active_in": {
+      "2008-01": 1.0,
+      "2008-02": 0.777542372881356,
+      "2008-03": 0.7245762711864406,
+      "2008-04": 0.673728813559322,
+      "2008-05": 0.6228813559322034,
+      "2008-06": 0.5995762711864406,
+      "2008-07": 0.5942796610169492,
+      "2008-08": 0.5476694915254238,
+      "2008-09": 0.5317796610169492,
+      "2008-10": 0.5572033898305084,
+      "2008-11": 0.5370762711864406,
+      "2008-12": 0.4904661016949153
+    }
+  },
+  "mau": {
+    "2008-01": 944,
+    "2008-02": 899,
+    "2008-03": 865,
+    "2008-04": 805,
+    "2008-05": 750,
+    "2008-06": 736,
+    "2008-07": 768,
+    "2008-08": 715,
+    "2008-09": 695,
+    "2008-10": 770,
+    "2008-11": 768,
+    "2008-12": 698
+  },
+  "launch": {
+    "launch_day": "2008-11-19",
+    "dau_day_before": 78.0,
+    "dau_pre": 217.04761904761904,
+    "dau_post": 209.33333333333334,
+    "dau_lift": -0.03554190434401039,
+    "hours_per_dau_pre": 1.8113283043760913,
+    "hours_per_dau_post": 2.4019178674281294,
+    "hours_per_dau_lift": 0.32605329559815255,
+    "lapsed_players": 920,
+    "reactivated_14d": 0.09456521739130434,
+    "baseline_reactivation_14d": 0.07172278615040753,
+    "reactivation_vs_baseline": 1.3184822072164721,
+    "level70_at_launch": 665,
+    "level70_played_after": 430,
+    "reached_80_share": 0.2,
+    "median_days_to_80": 24.5
+  },
+  "step_up": {
+    "day": "2008-10-24",
+    "dau_14d_before": 162.57142857142858,
+    "dau_14d_after": 238.0,
+    "dau_lift": 0.46397188049209137,
+    "lapsed_players": 892,
+    "reactivated_14d": 0.1266816143497758
+  },
+  "churn": {
+    "player_months": 7766,
+    "churn_rate": 0.22006180788050475,
+    "churn_in_guild": 0.16175496688741722,
+    "churn_no_guild": 0.4241019698725377,
+    "no_guild_vs_guild": 2.621879117738104,
+    "churn_low_activity": 0.47741273100616016,
+    "churn_high_activity": 0.016230838593327322,
+    "low_activity_share": 0.37625547257275305,
+    "churn_falling": 0.3950097213220998,
+    "churn_steady": 0.1047008547008547,
+    "falling_share": 0.39737316507854753
+  },
+  "early_warning": {
+    "train_months": "Feb-Jul 2008",
+    "test_months": "Aug-Oct 2008",
+    "test_player_months": 2121,
+    "base_rate": 0.22866572371522867,
+    "auc": 0.8563972979104177,
+    "top20_capture": 0.5278350515463918,
+    "top20_churn_rate": 0.6037735849056604,
+    "days_since_last_rule_auc": 0.8185919895142793
+  }
+}
